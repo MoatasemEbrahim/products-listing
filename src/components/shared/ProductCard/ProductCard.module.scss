@@ -11,4 +11,13 @@
     margin-top: .5rem;
     width: 3rem;
   }
+
+  .info {
+    display: flex;
+    align-items: center;
+
+    h3 {
+      margin: 0;
+    }
+  }
 }

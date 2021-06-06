@@ -7,8 +7,8 @@ const ProductCard:FC<IProduct> = ({id,name,price,currencySymbol,imageLocation}:I
   return (
     <Link to={`/products/${id}`} className={styles.card}>
       <img className={styles.logo} src={imageLocation} alt={name}/>
-      <h3>Title: {name}</h3>
-      <h4>Price: {`${price}${currencySymbol}`}</h4>
+      <p className={styles.info}><span>Title: &nbsp; </span><h3> {name}</h3></p>
+      <p className={styles.info}><span>Price: &nbsp; </span><h3>{`${price}${currencySymbol}`}</h3></p>
     </Link>
   )
 }

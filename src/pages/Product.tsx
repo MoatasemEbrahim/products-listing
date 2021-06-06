@@ -1,5 +1,6 @@
-import React,{FC} from 'react'
+import React,{FC} from 'react';
+import Product from '../components/Product/Product';
 
-const Product:FC = () => <p>Product</p>
+const ProductPage:FC = () => <Product />
 
-export default Product
+export default ProductPage
