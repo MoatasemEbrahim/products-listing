@@ -1,9 +1,10 @@
+import React from 'react';
+import Layout from './components/Layout/Layout';
+
 function App() {
   return (
     <div>
-      <header>
-        <h1>Carry1st</h1>
-      </header>
+      <Layout />
     </div>
   );
 }
